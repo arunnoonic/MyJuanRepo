@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'fpdi' => array($vendorDir . '/itbz/fpdi/src'),
+    'fpdf' => array($vendorDir . '/itbz/fpdf/src'),
+    'WhiteOctober\\PagerfantaBundle' => array($vendorDir . '/white-october/pagerfanta-bundle'),
     'Twig_Extensions_' => array($vendorDir . '/twig/extensions/lib'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
     'Symfony\\Component\\Icu\\' => array($vendorDir . '/symfony/icu'),
@@ -15,7 +18,13 @@ return array(
     'Sensio\\Bundle\\FrameworkExtraBundle' => array($vendorDir . '/sensio/framework-extra-bundle'),
     'Sensio\\Bundle\\DistributionBundle' => array($vendorDir . '/sensio/distribution-bundle'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'Pagerfanta\\' => array($vendorDir . '/pagerfanta/pagerfanta/src'),
+    'Nelmio\\CorsBundle' => array($vendorDir . '/nelmio/cors-bundle'),
+    'Lexik\\Bundle\\FormFilterBundle' => array($vendorDir . '/lexik/form-filter-bundle'),
+    'Knp\\Snappy' => array($vendorDir . '/knplabs/knp-snappy/src'),
+    'Knp\\Bundle\\SnappyBundle' => array($vendorDir . '/knplabs/knp-snappy-bundle'),
     'Incenteev\\ParameterHandler' => array($vendorDir . '/incenteev/composer-parameter-handler'),
+    'Gedmo\\' => array($vendorDir . '/gedmo/doctrine-extensions/lib'),
     'Doctrine\\ORM\\' => array($vendorDir . '/doctrine/orm/lib'),
     'Doctrine\\DBAL\\' => array($vendorDir . '/doctrine/dbal/lib'),
     'Doctrine\\Common\\Lexer\\' => array($vendorDir . '/doctrine/lexer/lib'),
@@ -25,6 +34,11 @@ return array(
     'Doctrine\\Common\\Annotations\\' => array($vendorDir . '/doctrine/annotations/lib'),
     'Doctrine\\Common\\' => array($vendorDir . '/doctrine/common/lib'),
     'Doctrine\\Bundle\\DoctrineCacheBundle' => array($vendorDir . '/doctrine/doctrine-cache-bundle'),
+    'DocDigital\\Lib\\SourceEditor' => array($vendorDir . '/docdigital/php-class-editor'),
+    'DocDigital\\Lib\\PdfManager\\' => array($vendorDir . '/docdigital/pdf-manager'),
+    'DocDigital\\Bundle\\PdfBundle\\' => array($vendorDir . '/docdigital/pdf-manager-bundle'),
+    'DocDigital\\Bundle\\FilterTypeGuesserBundle' => array($vendorDir . '/docdigital/filter-type-guesser'),
+    'DocDigital\\Bundle\\CdnBundle' => array($vendorDir . '/docdigital/cdn-bundle'),
     'Assetic' => array($vendorDir . '/kriswallsmith/assetic/src'),
     '' => array($baseDir . '/src'),
 );

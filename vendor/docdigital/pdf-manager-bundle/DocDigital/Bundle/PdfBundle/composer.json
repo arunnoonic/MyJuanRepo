@@ -1,0 +1,22 @@
+{
+    "name": "docdigital/pdf-manager-bundle",
+    "type": "symfony-bundle",
+    "description": "Pdf Management Bundle to merge, split PDFs",
+    "keywords": ["PDF"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Juan Manuel Fernandez",
+            "email": "juanmf@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "docdigital/pdf-manager": "~1.0"
+    },
+    "autoload": {
+        "psr-0": { "DocDigital\\Bundle\\PdfBundle\\": "" }
+    },
+    "target-dir": "DocDigital/Bundle/PdfBundle",
+    "minimum-stability": "dev"
+}
