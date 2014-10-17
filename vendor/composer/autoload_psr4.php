@@ -10,6 +10,7 @@ return array(
     'Symfony\\Bundle\\AsseticBundle\\' => array($vendorDir . '/symfony/assetic-bundle'),
     'Stof\\DoctrineExtensionsBundle\\' => array($vendorDir . '/stof/doctrine-extensions-bundle'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Matheo\\UserBundle\\' => array($vendorDir . '/matheo/user-bundle'),
     'FOS\\UserBundle\\' => array($vendorDir . '/friendsofsymfony/user-bundle'),
     'Doctrine\\Bundle\\DoctrineBundle\\' => array($vendorDir . '/doctrine/doctrine-bundle'),
 );

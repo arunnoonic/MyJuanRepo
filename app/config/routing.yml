@@ -1,0 +1,8 @@
+acme_user:
+    resource: "@AcmeUserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+    
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"    
+
