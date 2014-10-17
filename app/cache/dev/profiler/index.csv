@@ -84,3 +84,11 @@ f71e8a,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/admin,14135454
 e7c4db,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/admin,1413545410,
 39282f,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/_wdt/e7c4db,1413545411,51fd90
 51fd90,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/_wdt/e7c4db,1413545411,
+3fce88,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/login,1413546846,d87279
+d87279,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/login,1413546846,
+426105,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/,1413546940,
+d444b9,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/logout,1413546953,
+1e2f26,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/,1413546953,
+a233f4,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/login,1413546967,
+966b66,127.0.0.1,POST,http://localhost/symfonyJuan/web/app_dev.php/login_check,1413546975,
+77fb44,127.0.0.1,GET,http://localhost/symfonyJuan/web/app_dev.php/,1413546975,
